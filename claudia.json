@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "claudia-office-executor",
+    "name": "claudia-office",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "4276stptl7",
+    "module": "web"
+  }
+}

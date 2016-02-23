@@ -1,0 +1,21 @@
+{
+  "name": "claudia-office",
+  "description": "Office add-in backend",
+  "private": true,
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "start": "claudia create --name claudia-office --region us-east-1 --api-module web",
+    "deploy": "claudia update"
+  },
+  "devDependencies": {
+    "claudia": "^1.x"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "claudia-api-builder": "^1.x",
+    "express": "^4.13.4",
+    "superb": "^1.2.0"
+  }
+}
